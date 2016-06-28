@@ -1,10 +1,11 @@
-import apn from "node-apn";
+const apn = require("apn")
+      ,tokens = require("./data/devices.json")
+      ,connect = require("./lib/connect.js")
+      ,same = require("./lib/pushSameNotification.js")
+      ,different = require("./lib/pushDifferentNotifications.js");
 
-import tokens from "./data/devices.json";
-import connect from "./lib/connect.js";
-import same from "./lib/pushSameNotification.js";
-import different from "./lib/pushDifferentNotifications.js";
+const service = new apn.connection({ production: false });
 
-connect();
-same();
-different();
+connect(service);
+// same(service);
+// different(service);
