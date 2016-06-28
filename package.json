@@ -1,0 +1,23 @@
+{
+  "name": "push_notifications-node",
+  "description": "Simple push...",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": {
+    "name": "Matheus Albuquerque",
+    "email": "matheus.brasil10@gmail.com  ",
+    "url": "http://jugoncalv.es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bepid-ifce/push_notifications-node"
+  },
+  "bugs": {
+    "url": "https://github.com/bepid-ifce/push_notifications-node/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "apn": "^1.7.6"
+  }
+}
