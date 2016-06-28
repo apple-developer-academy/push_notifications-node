@@ -1,6 +1,6 @@
 {
   "name": "push_notifications-node",
-  "description": "Simple push...",
+  "description": "Simple example on how to deliver iOS Push Notifications with Node.js.",
   "version": "0.0.1",
   "homepage": "",
   "author": {
