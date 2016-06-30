@@ -7,5 +7,5 @@ const apn = require("apn")
 const service = new apn.connection({ production: false });
 
 connect(service);
-// same(service);
-// different(service);
+// same(service, tokens);
+// different(service, tokens);
