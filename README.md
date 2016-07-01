@@ -31,7 +31,6 @@ The sample was originally used in [this workshop](https://speakerdeck.com/ytheco
 [Node.js](https://nodejs.org/en/) installed.
 
 1. Clone this repo:
-
 ```sh
 git clone https://github.com/bepid-ifce/push_notifications-node.git
 ```
@@ -57,13 +56,9 @@ more info on this [here](#more-help)
 
 connect(service);
 
-// Uncomment this line to push the same notifications to each device from
-// [`devices.json`](data/devices.json)
-// same(service, tokens);
+same(service, tokens); // Uncomment this line to push the same notifications to each device from devices.json
 
-// Uncomment this line to push different notifications to each device from
-// [`devices.json`](data/devices.json)
-// different(service, tokens);
+different(service, tokens); // Uncomment this line to push different notifications to each device from devices.json
 ```
 
 ## More Help
